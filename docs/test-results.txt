@@ -1,0 +1,13 @@
+tests/test_aquasentinel.py::test_T01_severe_crisis_full_pipeline PASSED  [  8%]
+tests/test_aquasentinel.py::test_T02_normal_farm_no_equipment_action PASSED [ 16%]
+tests/test_aquasentinel.py::test_T03_watch_level_farm PASSED             [ 25%]
+tests/test_aquasentinel.py::test_T04_general_question_routed_to_qa PASSED [ 33%]
+tests/test_aquasentinel.py::test_F01_unknown_farm_rejected PASSED        [ 41%]
+tests/test_aquasentinel.py::test_F02_prompt_injection_blocked_before_llm PASSED [ 50%]
+tests/test_aquasentinel.py::test_F03_safety_interlock_blocks_aerator_off PASSED [ 58%]
+tests/test_aquasentinel.py::test_F04_grounding_critic_detects_hallucinated_numbers PASSED [ 66%]
+tests/test_aquasentinel.py::test_F05_publish_rejected_when_not_verified PASSED [ 75%]
+tests/test_aquasentinel.py::test_S01_do_saturation_matches_apha_reference PASSED [ 83%]
+tests/test_aquasentinel.py::test_S02_heat_alert_rule PASSED              [ 91%]
+tests/test_aquasentinel.py::test_S03_ari_insufficient_evidence PASSED    [100%]
+============================== 12 passed in 9.02s ==============================

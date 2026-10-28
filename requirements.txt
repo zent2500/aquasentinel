@@ -1,0 +1,7 @@
+# 검증 환경: Python 3.13, 아래 버전에서 pytest 12건 통과 (2026-10-28)
+google-adk==2.13.0
+fastmcp==4.1.4
+mcp==2.3.0
+matplotlib==3.11.2
+python-dotenv==1.2.4
+pytest==9.2.0
